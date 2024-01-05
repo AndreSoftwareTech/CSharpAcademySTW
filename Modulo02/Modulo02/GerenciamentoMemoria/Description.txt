@@ -1,0 +1,19 @@
+﻿ Stack e Heap são duas áreas fundamentais na memória de um programa de computador. 
+Aqui estão os conceitos básicos de ambos:
+
+Stack (Pilha):
+- A "stack" é uma área de memória que armazena variáveis locais e informações de contexto de chamada de função.
+- Funciona de forma organizada e eficiente, com operações de inserção e remoção sempre na parte superior.
+- O acesso à memória na "stack" é rápido, pois segue uma estrutura de dados simples.
+- Variáveis na "stack" têm um tempo de vida curto e são descartadas quando seu escopo termina (geralmente ao sair de uma função).
+- A "stack" é usada principalmente para armazenar dados temporários, como variáveis locais de métodos e informações de chamada de função.
+
+Heap:
+- O "heap" é uma área de memória mais dinâmica e é usada para armazenar objetos e dados com tempo de vida mais longo.
+- A alocação e liberação de memória no "heap" é menos organizada e mais complexa do que na "stack".
+- A memória no "heap" é alocada sob demanda e precisa ser liberada explicitamente quando não é mais necessária, ou pode ocorrer um vazamento de memória.
+- O acesso à memória no "heap" é geralmente mais lento do que na "stack", pois não segue uma estrutura de pilha simples.
+- O "heap" é usado para armazenar objetos mais permanentes, como instâncias de classe, matrizes grandes e outros dados que precisam sobreviver ao escopo de uma função.
+
+Esses são os conceitos básicos da "stack" e do "heap". É importante entender essa distinção, pois isso afeta como você aloca, gerencia e acessa memória em seus programas. Em linguagens como C# e C++, você precisa estar ciente disso ao lidar com alocação de memória e gerenciamento de recursos.
+

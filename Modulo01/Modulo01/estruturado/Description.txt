@@ -1,0 +1,121 @@
+﻿Variavel 
+	aponta para o endereco onde existe o dado. 
+	Quando copiada é feito uma copia do dado é criado um novo espaco na memoria
+	Referencia -> Guarda referencias de enderecos. 
+	Quando copiada é feito um novo apontamento para o mesmo dado.
+
+	Na pratica:
+	 Quando copio por exemplo um "int idade" para "int nova_idade" é feita a copia do valor apenas.
+	 portanto posso alterar a nova_idade sem nenhum efeito na variavel idade
+	 Já quando um objeto de classe, o novo dado aponta para o anterior.
+	 ex 
+	 Aluno aluno1 = new Aluno();
+	 Aluno aluno2 = new Aluno(); 
+	 aluno2 = aluno1;
+	 alunoDTO.nome = aluno1.nome;
+	 Quando alterar o aluno2, sempre ira alterar o aluno1 tambem,
+	 pq as duas variaveis apontam para o mesmo endereco de memoria.
+
+Concatenacao
+	 é um processo em programação (e em linguagem natural) de combinar ou unir duas ou mais sequências
+	 de caracteres ou valores em uma única sequência. 
+	 Isso é comumente usado para criar strings mais longas, juntar informações ou formatar texto de saída.
+	Em resumo, a concatenação é a ação de juntar pedaços de dados, como strings ou números, 
+	para criar um novo valor, muitas vezes representado como uma única string ou sequência de caracteres. 
+	Isso permite a criação de saídas formatadas ou a combinação de informações
+	de diferentes fontes em uma única representação.
+
+
+interpolacao
+	A interpolação é um recurso em linguagens de programação que permite criar strings de maneira mais legível
+	e conveniente, incorporando valores de variáveis diretamente na string, 
+	em vez de concatenar strings e variáveis separadamente. 
+	Em essência, a interpolação de strings permite que você insira expressões ou variáveis em uma string
+	para que os valores dessas expressões sejam incorporados na string final.
+
+Lista
+
+	Uma lista é uma coleção de itens organizados em uma ordem específica.
+
+	Composição:
+	- Composta por elementos ou itens.
+	- Cada elemento pode conter qualquer tipo de dado.
+	- Os elementos são organizados em uma ordem.
+
+	Importância:
+	- Armazenar dados relacionados.
+	- Facilitar acesso e manipulação de dados.
+	- Suporte à iteração (percorrer os elementos).
+	- Manter a ordem dos elementos.
+	- Flexibilidade para adicionar/remover elementos.
+	- Organização e busca eficaz de informações.
+	- Fundamental no desenvolvimento de software.
+
+	Em um programa de gerenciamento de contatos, uma lista de contatos permite 
+	adicionar, remover e consultar informações dos contatos de forma eficiente.
+
+Tupla
+	-Uma tupla é uma estrutura de dados que permite armazenar um conjunto ordenado de elementos 
+	de tipos diferentes. Elas são imutáveis, ou seja, não podem ser alteradas após a criação. 
+	As tuplas são usadas para agrupar dados relacionados em uma única estrutura.
+
+	- Tuplas são úteis quando você precisa de uma estrutura simples para armazenar dados heterogêneos, 
+	como informações de uma pessoa.
+
+	-Dados heterogêneos se referem a dados que são de tipos diferentes ou variados. 
+	Em outras palavras, são dados que não compartilham o mesmo tipo de dados
+Dicionário
+	- Estrutura de dados que armazena pares de  chave-valor.
+	- Cada chave é única e associada a um valor.
+	- Pode conter dados de qualquer tipo.
+
+	Importância:
+	- Facilita a associação de informações relacionadas.
+	- Permite acesso rápido aos valores através das chaves.
+	- Útil para mapear informações, como contatos ou configurações.
+
+	Utilização:
+	- Criar um dicionário usando tipos específicos, por exemplo, `Dictionary<string, int>` para mapear nomes (strings) para idades (inteiros).
+	- Adicionar, acessar e modificar valores usando chaves.
+	- Ideal para situações em que você precisa de associações chave-valor eficientes.
+
+Operadores Relacionais
+	Operadores relacionais são símbolos ou caracteres especiais em programação usados para comparar valores. 
+	Eles são usados para avaliar se uma condição é verdadeira ou falsa com base nas relações entre os valores. 
+	Aqui estão os operadores relacionais básicos em C#:
+
+	>: Maior que.
+	<: Menor que.
+	>=: Maior ou igual a.
+	<=: Menor ou igual a.
+	==: Igual a.
+	!=: Diferente de.
+
+Operadores Matematicos
+	Operadores matemáticos são símbolos ou caracteres especiais em programação
+	que são usados para realizar operações matemáticas em valores. Eles permitem que você realize cálculos
+	numéricos e manipule dados numéricos de várias maneiras. 
+	Aqui estão os operadores matemáticos básicos em C#:
+
+	+: Adição (soma dois valores).
+	-: Subtração (subtrai um valor de outro).
+	*: Multiplicação (multiplica dois valores).
+	/: Divisão (divide um valor pelo outro).
+	%: Módulo (retorna o resto da divisão entre dois valores).
+	++: Incremento (aumenta o valor de uma variável por 1).
+	--: Decremento (diminui o valor de uma variável por 1).
+
+Matriz 
+	Uma matriz é como uma tabela com linhas e colunas.
+	Neste exemplo, criamos uma matriz 3x3 (3 linhas e 3 colunas).
+	Preenchemos essa tabela com números de 1 a 9.
+	Usamos dois loops para percorrer cada célula da tabela e exibir os números no console.
+	A ideia é organizar dados em uma grade, onde cada célula tem um valor. Neste caso, temos uma matriz 3x3 de números inteiros
+
+Vetor 
+	Um vetor em programação é uma estrutura de dados que armazena uma coleção de elementos do mesmo tipo, 
+	organizados de forma linear e acessíveis através de um índice. Cada elemento do vetor possui uma posição única identificada por um 
+	número inteiro, chamado de índice.
+	Os vetores têm um tamanho fixo, que é determinado quando são criados, e todos os elementos são do mesmo tipo de dados. 
+	Eles são úteis para armazenar e manipular conjuntos de valores relacionados, como uma lista de números, 
+	nomes ou qualquer outro tipo de dado.

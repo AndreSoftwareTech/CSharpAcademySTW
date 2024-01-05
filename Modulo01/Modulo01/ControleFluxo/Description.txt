@@ -1,0 +1,32 @@
+﻿Estruturas de controle de fluxo
+
+Estruturas de controle de fluxo são recursos fundamentais na programação que permitem controlar o fluxo 
+de execução de um programa. Elas determinam a ordem em que as instruções são executadas e podem alterar 
+esse fluxo com base em condições específicas. 
+
+ Estruturas Condicional
+ Essas estruturas permitem que o programa faça decisões com base em condições específicas.
+ Se uma condição for verdadeira, o programa executará um bloco de código; caso contrário, 
+ ele executará outro bloco ou seguirá um caminho alternativo.
+
+    Exemplos :
+    - `if`: Executa um bloco de código se uma condição for verdadeira.
+    - `else if`: Permite que você adicione condições adicionais após um `if`.
+    - `else`: Especifica o que fazer se nenhuma das condições anteriores for verdadeira.
+
+    - `switch`: Permite que você selecione um bloco de código com base no valor de uma expressão.
+
+Estruturas de Repetição
+    Essas estruturas permitem que um bloco de código seja executado repetidamente enquanto uma condição
+    for verdadeira. 
+    Elas são usadas para automatizar tarefas repetitivas ou processar coleções de dados.
+
+    Exemplos em C#:
+    - `for`: Executa um bloco de código um número específico de vezes.
+    - `while`: Executa um bloco de código enquanto uma condição for verdadeira.
+    - `do-while`: Semelhante ao `while`, mas garante que o bloco de código seja executado pelo menos uma vez.
+    - `foreach`: Itera por elementos de uma coleção, como uma lista ou um array.
+
+    As estruturas de controle de fluxo são essenciais para criar programas que tomam decisões, 
+    repetem tarefas e respondem dinamicamente às condições do ambiente.
+    Elas ajudam a tornar o código mais flexível, eficiente e capaz de lidar com uma variedade de situações.

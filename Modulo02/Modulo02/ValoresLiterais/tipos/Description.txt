@@ -1,0 +1,34 @@
+﻿
+Plataforma .Net
+O framework .net é uma plataforma, mas tambem é uma maquina virtual igual ao JVM do java. 
+Quando compilo algo no C#, ele gera um programa em ByteCode. 
+que é uma linguagem intermediaria que é lida pela maquina virtual do .Net Framework
+
+Tipos Primitivos
+
+Caractere
+		char
+		String
+Inteiros
+	Byte
+	Short
+	Inteiro
+	Long
+Flutuante
+	Decimal
+	Float
+	Double
+Booleano
+	True 
+	False
+
+ Garbage collector 
+	Coletor de lixo na memoria, serve para limpar as variaveis que nao sao mais usadas, 
+	ou qualquer outro espaco nao mais utilizado no programa
+	ele faz parte do .net Framework ou .net Core, quando roda programa nas linguagens 
+	C#, Vb.Net, F#  ele gerencia o que esta rodando.
+
+ 
+
+
+
